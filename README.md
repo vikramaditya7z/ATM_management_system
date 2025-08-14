@@ -19,8 +19,8 @@ It mimics the working of a real ATM with support for different account types (sa
 11. Mini Statement (last 10 transactions)  
 12. MySQL Database Integration for persistent data storage  
 
-**🚀 How to Run**
-1.Clone the repository and open the project folder.
-2.Create a MySQL database named atm and add the atm_user and atm_transaction tables using the schema given above.
-3.Install the mysql-connector-python package.
-4.Run the Python file atm_management.py to start the program.
+## 🚀 How to Run  
+1. Clone the repository and open the project folder.  
+2. Create a MySQL database named **atm** and add the `atm_user` and `atm_transaction` tables using the schema given above.  
+3. Install the **mysql-connector-python** package.  
+4. Run the Python file **atm_management.py** to start the program.  
