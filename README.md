@@ -1,6 +1,3 @@
-**ATM Management System (Python + MySQL)**
-            **-By Vikramaditya and Anish**
-
 # 🏦 ATM Management System (Python + MySQL)
 
 ### A simple yet powerful command-line ATM simulator built with Python and MySQL.
@@ -62,8 +59,6 @@ mysql.connector – Database connectivity
 random – Transaction ID generation
 
 
-
-
 ---
 
 
@@ -71,4 +66,21 @@ random – Transaction ID generation
 1. Clone the repository and open the project folder.  
 2. Create a MySQL database named **atm** and add the `atm_user` and `atm_transaction` tables using the schema given above.  
 3. Install the **mysql-connector-python** package.  
-4. Run the Python file **atm_management.py** to start the program.  
+4. Run the Python file **atm_management.py** to start the program.
+
+   
+## 📌 Notes
+
+Savings accounts must maintain a minimum ₹5000 balance.
+
+Maximum withdrawal limit for savings accounts: ₹10,000 at a time.
+
+Credit account withdrawals cannot exceed available credit limit.
+
+PIN must be a 3-digit number.
+
+Mobile numbers must be 10 digits.
+
+
+
+---
